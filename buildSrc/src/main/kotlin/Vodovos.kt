@@ -7,7 +7,7 @@ object Vodovos {
         const val versionNameSuffix = "-$suffix"
         const val applicationIdSuffix = ".$suffix"
         const val resName = "${appName}-$suffix"
-        const val vodovosBackend = "\"\""
+        const val vodovosBackend = "\"http://szorinvodovoz.tw1.ru/\""
     }
 
     object Production {
@@ -15,6 +15,6 @@ object Vodovos {
         const val versionNameSuffix = "-$suffix"
         const val applicationIdSuffix = ".$suffix"
         const val resName = "${appName}"
-        const val vodovosBackend = "\"\""
+        const val vodovosBackend = "\"http://szorinvodovoz.tw1.ru/\""
     }
 }

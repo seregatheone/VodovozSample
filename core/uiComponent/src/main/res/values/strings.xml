@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_search">Поиск</string>
+    <string name="icon_clean_search_text">Отчистить поле ввода</string>
+
+    <string name="delete_region">Удалить регион</string>
+
+    <string name="error">ERROR</string>
+
+    <string name="choose_date">Укажите дату</string>
+    <string name="choose_date_button">Выбрать дату</string>
+    
+    <string name="arrive_in_minutes">минут</string>
+</resources>

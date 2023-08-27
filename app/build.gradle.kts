@@ -82,6 +82,20 @@ android {
 }
 
 dependencies {
+    implementation(project(":features:sample:presentation"))
+
+    implementation(project(":core:uiComponent"))
+
+    implementation(project(":core:dagger"))
+    implementation(project(":core:dependency"))
+
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
+    implementation(project(":backend:vodovos"))
+    implementation(project(":backend:utils"))
+
+    implementation(project(":common:router"))
 
 
     implementation(Dependencies.AppCenter.libAnalytics)

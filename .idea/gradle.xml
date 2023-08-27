@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,7 +12,24 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/backend" />
+            <option value="$PROJECT_DIR$/backend/utils" />
+            <option value="$PROJECT_DIR$/backend/vodovos" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/domain" />
+            <option value="$PROJECT_DIR$/common/router" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/dagger" />
+            <option value="$PROJECT_DIR$/core/dependency" />
+            <option value="$PROJECT_DIR$/core/uiComponent" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/sample" />
+            <option value="$PROJECT_DIR$/features/sample/domain" />
+            <option value="$PROJECT_DIR$/features/sample/presentation" />
+            <option value="$PROJECT_DIR$/features/sample/router" />
           </set>
         </option>
       </GradleProjectSettings>

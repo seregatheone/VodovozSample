@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_title">
+        Вы столкнулись с неправомерными действиями?
+    </string>
+
+    <string name="first_description">
+    Активируйте тревожную кнопку и мы сообщим адвокату, что случилось и где вы находитесь </string>
+
+    <string name="first_button">
+        Дальше
+    </string>
+
+    <string name="second_title">
+    Чат с адвокатом
+    </string>
+
+    <string name="second_description">
+        Сообщите адвокату дополнительную информацию. Вся информация защищена законом и составляет адвокатскую тайну
+    </string>
+
+    <string name="second_button">
+        Дальше
+    </string>
+
+    <string name="third_title">
+        Геопозиция и диктофон
+    </string>
+
+    <string name="third_description">
+        Если вас куда-то повезут, мобильное приложение отследит перемещения и уведомит авоката
+    </string>
+
+    <string name="third_button">
+        Разрешить
+    </string>
+
+    <string name="fourth_title">
+        Уведомление
+    </string>
+
+    <string name="fourth_description">
+        Вся информация, в том числе геолокация, является адвокатской тайной в соответствии с законом
+    </string>
+
+    <string name="fourth_button">
+        Готово
+    </string>
+
+    <string name="law_about_lawyers">"Об адвокатуре и адвокатсткой деятельности"</string>
+
+    <string name="law_uri">https://base.garant.ru/12126961/</string>
+
+    <string name="pager_image">Pager Image</string>
+
+</resources>

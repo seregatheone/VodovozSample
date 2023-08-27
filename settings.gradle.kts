@@ -14,4 +14,23 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "VodovosSample"
-include(":app")
+include(
+    ":app",
+
+    ":backend:utils",
+    ":backend:vodovos",
+
+    ":common:domain",
+    ":common:router",
+
+    ":core:dagger",
+    ":core:dependency",
+    ":core:uiComponent",
+
+    ":domain",
+    ":data",
+
+    ":features:sample:router",
+    ":features:sample:domain",
+    ":features:sample:presentation",
+)

@@ -22,7 +22,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":utils"))
+
     implementation(Dependencies.Core.Ktx.lib)
+    implementation(Dependencies.Compose.material)
     implementation(Dependencies.MaterialDesign.plugin_3)
     implementation(Dependencies.Compose.activity)
     implementation(Dependencies.Compose.ui)
@@ -31,6 +34,4 @@ dependencies {
     implementation(Dependencies.Coil.libSvg)
     implementation(Dependencies.Coil.lib)
     debugImplementation(Dependencies.Compose.uiTooling)
-
-    implementation(Dependencies.Compose.material)
 }

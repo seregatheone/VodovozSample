@@ -30,6 +30,8 @@ include(
     ":domain",
     ":data",
 
+    ":utils",
+
     ":features:sample:router",
     ":features:sample:domain",
     ":features:sample:presentation",

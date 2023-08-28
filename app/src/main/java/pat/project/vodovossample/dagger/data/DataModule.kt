@@ -12,8 +12,10 @@ class DataModule {
     @Provides
     fun providesSampleScreenRepository(
         productApi: ProductApi,
+        @BackendVodovos host : String
     ): SampleScreenRepository = SampleScreenRepositoryImpl(
-        productApi
+        productApi,
+        host
     )
 
 }

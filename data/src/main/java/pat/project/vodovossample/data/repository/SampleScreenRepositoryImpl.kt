@@ -10,6 +10,7 @@ import pat.project.vodovossample.sample.domain.repository.SampleScreenRepository
 
 class SampleScreenRepositoryImpl(
     private val productApi: ProductApi,
+    private val host : String
 ) : SampleScreenRepository {
     override suspend fun getProductsData(): Entity<List<ProductsCategories>> {
         val response = productApi.getAllProducts()
@@ -17,7 +18,7 @@ class SampleScreenRepositoryImpl(
             response.status
         ){
             ResponseStatusType.SUCCESS -> {
-                Entity.Success(response.products.asEntity())
+                Entity.Success(response.products.asEntity(host))
             }
             ResponseStatusType.ERROR -> {
                 Entity.Error(

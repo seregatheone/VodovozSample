@@ -30,6 +30,7 @@
             <option value="$PROJECT_DIR$/features/sample/domain" />
             <option value="$PROJECT_DIR$/features/sample/presentation" />
             <option value="$PROJECT_DIR$/features/sample/router" />
+            <option value="$PROJECT_DIR$/utils" />
           </set>
         </option>
       </GradleProjectSettings>

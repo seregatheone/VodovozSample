@@ -24,11 +24,15 @@ dependencies {
     api (project(":features:sample:router"))
     api (project(":features:sample:domain"))
 
+    implementation(Dependencies.Compose.material)
+    implementation(Dependencies.MaterialDesign.plugin_3)
+
     implementation(project(":common:router"))
     implementation (project(":core:uiComponent"))
     implementation (project(":core:dependency"))
     implementation (project(":core:dagger"))
     implementation (Dependencies.Core.Ktx.lib)
+    implementation(Dependencies.Compose.ui)
     implementation (Dependencies.Compose.uiToolingPreview)
     implementation (Dependencies.Dagger.lib)
     kapt (Dependencies.Dagger.daggerCompiler)

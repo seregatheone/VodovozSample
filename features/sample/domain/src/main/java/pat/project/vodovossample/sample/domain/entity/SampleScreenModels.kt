@@ -1,12 +1,12 @@
 package pat.project.vodovossample.sample.domain.entity
 
 data class ProductsCategories(
-    val data: List<ProductItem>,
+    val data: List<ProductItemDomain>,
     val categoryName: String
 )
 
-data class ProductItem(
-    val picture: String,
+data class ProductItemDomain(
+    val pictureUrl: String,
     val price: ProductPrice?,
     val favorite: Boolean,
 )
